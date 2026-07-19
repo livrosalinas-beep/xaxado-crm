@@ -3,7 +3,7 @@ import { NextResponse } from 'next/server';
 
 const client = new OpenAI({
   baseURL: 'https://api.cerebras.ai/v1',
-  apiKey: process.env.ZYLOO_KEY, // A chave provida csk-...
+  apiKey: process.env.ZYLOO_KEY || 'dummy_key_para_passar_no_build', // A chave provida csk-...
 });
 
 export async function POST(req: Request) {
