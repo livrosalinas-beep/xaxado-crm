@@ -4,7 +4,7 @@ import { useState, useEffect } from "react"
 import { createClient } from "@/lib/supabase/client"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Plus, Search, Mail, Phone, Loader2, Trash2, MessageSquare, Edit2 } from "lucide-react"
+import { Search, Mail, Phone, Loader2, Trash2, MessageSquare } from "lucide-react"
 import { ContatoDialog } from "./ContatoDialog"
 import { SendMessageDialog } from "@/components/communication/SendMessageDialog"
 

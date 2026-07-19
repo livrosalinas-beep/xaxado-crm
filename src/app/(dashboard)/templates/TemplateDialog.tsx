@@ -5,7 +5,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from 
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Plus, MessageSquare, Mail, Loader2, Info } from "lucide-react"
+import { MessageSquare, Mail, Loader2, Info } from "lucide-react"
 import { createClient } from "@/utils/supabase/client"
 
 export function TemplateDialog({ 
