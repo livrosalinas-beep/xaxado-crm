@@ -11,6 +11,7 @@ export type Deal = {
   value: number
   stage: string
   created_at: string
+  campaign_id?: string
 }
 
 interface CardProps {

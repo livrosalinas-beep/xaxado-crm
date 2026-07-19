@@ -60,7 +60,7 @@ export function TemplateDialog({
   }
 
   const insertVariable = (variable: string) => {
-    setContent(prev => prev + ` {{${variable}}}`)
+    setContent((prev: string) => prev + ` {{${variable}}}`)
   }
 
   return (
