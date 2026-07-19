@@ -85,7 +85,7 @@ export default function ContatosPage() {
               ) : contatos.length === 0 ? (
                 <tr>
                   <td colSpan={5} className="px-6 py-8 text-center text-sertao-muted">
-                    Nenhum contato encontrado. Clique em "Novo Contato" para começar.
+                    Nenhum contato encontrado. Clique em &quot;Novo Contato&quot; para começar.
                   </td>
                 </tr>
               ) : (
