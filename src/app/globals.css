@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  
+  --color-sertao-bg: var(--sertao-bg);
+  --color-sertao-primary: var(--sertao-primary);
+  --color-sertao-secondary: var(--sertao-secondary);
+  --color-sertao-accent: var(--sertao-accent);
+  --color-sertao-text: var(--sertao-text);
+  --color-sertao-muted: var(--sertao-muted);
+  --color-sertao-border: var(--sertao-border);
+}
+
+:root {
+  /* Light Mode Palette (Tons Claros de Areia e Barro) */
+  --sertao-bg: #fdfaf6; /* Areia bem clara, quase branco */
+  --sertao-secondary: #f3eae1; /* Areia suave para cards/superfícies */
+  --sertao-primary: #a64d2d; /* Ferrugem / Telha (Botões e Destaques) */
+  --sertao-accent: #d4a373; /* Caramelo suave */
+  --sertao-text: #2a1f1b; /* Marrom escuro (Mocha) para texto legível */
+  --sertao-muted: #8c7b75; /* Texto secundário/ícones neutros */
+  --sertao-border: #e3d5ca; /* Bordas suaves */
+}
+
+/* Modo escuro manual (.dark) ou automático pelo sistema */
+.dark {
+  /* Dark Mode Palette (Espresso e Mocha) */
+  --sertao-bg: #171210; /* Espresso Profundo */
+  --sertao-secondary: #2a1f1b; /* Mocha (Cards e Superfícies) */
+  --sertao-primary: #a64d2d; /* Ferrugem / Telha (Botões e Destaques) */
+  --sertao-accent: #e8c4a2; /* Caramelo Claro (Ícones e Detalhes) */
+  --sertao-text: #fdfaf6; /* Texto quase branco/areia */
+  --sertao-muted: #9c918c; /* Texto secundário escuro */
+  --sertao-border: #3e2f2a; /* Bordas no modo escuro */
+}
+
+body {
+  background: var(--sertao-bg);
+  color: var(--sertao-text);
+  font-family: Arial, Helvetica, sans-serif;
+}
